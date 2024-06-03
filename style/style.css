@@ -1,0 +1,46 @@
+*{
+    font-family: "Work Sans";
+}
+/*header style*/
+.color{
+    color: #ff42a5;
+}
+header{
+ background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.img-1{
+    display: flex;
+    align-items: center;
+}
+.icon{
+ border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+width: 262px;
+height: 56px;
+align-items: center;
+padding-inline: 24px;
+}
+nav h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+nav a{
+    color: #3C354F;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+}
+nav div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
