@@ -20,6 +20,7 @@ nav{
     align-items: center;
     margin-inline: 240px;
     margin-top: 44px;
+
 }
 .img-1{
     display: flex;
@@ -53,7 +54,8 @@ nav div{
 /*main play like style*/
 .container{
     display: flex;
-    gap: 250px;  
+    gap: 0px;
+ 
 }
 .text{
     position: absolute;
@@ -137,4 +139,92 @@ font-weight: 800;
 .all-icon{
 text-decoration: none;
 color: #534C64;
+}
+
+/*main play like style*/
+.gamer-right{
+    display: flex;
+    height: 600px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+}
+.gamer h2{
+    position: absolute;
+    right: 240px;
+}
+.gamer p{
+    position: absolute;
+    right: 240px;
+    bottom: -240px;
+}
+.btn-3{
+    position: absolute;
+    right: 240px;
+    bottom: -300px;
+}
+.our{
+    position: absolute;
+    right: 240px;
+    bottom:-380px ;
+}
+.gamer h3{
+    position: absolute;
+    right: 240px;
+    bottom: -430px;
+}
+
+.gamer h2{
+text-align: right;
+font-size: 48px;
+font-weight: 700;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+right: 240px;   
+}
+.gamer h3{
+color: #534C64;
+font-family: "Work Sans";
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 45px;
+}
+.gamer p{
+width: 520px;
+color: #534C64;
+text-align: right;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+.our{
+color: #534C64;
+text-align: right;
+font-size: 24px;
+font-weight: 500;
+line-height: 45px;
+}
+.btn-3{
+color: #FFF;
+font-size: 20px;
+font-weight: 600;
+padding: 21px 40px;
+gap: 10px;
+border-radius: 48px;
+background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+border: none;
+}
+@media screen and (max-width:576px) {
+    nav,
+    .icon{
+        flex-direction: column;
+    }
+    nav,.img-2{
+        width: 100%;
+    }
+    .container{
+        flex-direction: column;
+        width: 100%;
+    }
 }
